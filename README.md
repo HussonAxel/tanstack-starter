@@ -72,3 +72,28 @@ Read the [hosting docs](https://tanstack.com/start/latest/docs/framework/react/h
 
 - [nekochan0122/tanstack-boilerplate](https://github.com/nekochan0122/tanstack-boilerplate) - A batteries-included TanStack Start boilerplate that inspired some patterns in this template. If you're looking for a more feature-rich starter, check it out!
 - [AlexGaudon/tanstarter-better-auth](https://github.com/AlexGaudon/tanstarter-better-auth) for his own better-auth implementation.
+- 
+
+## Upload this repo on your own git
+   ```bash
+    git remote -v
+```
+
+# Remove the existing remote
+   ```bash
+git remote remove origin
+   ```
+# Add your new repository URL (replace YOUR-USERNAME with your GitHub username)
+   ```bash
+git remote add origin https://github.com/YOUR-USERNAME/tanstack-starter.git
+   ```
+
+# Verify the new remote URL
+   ```bash
+git remote -v
+   ```
+
+# Push your code to your new repository
+   ```bash
+git push -u origin main
+   ```
